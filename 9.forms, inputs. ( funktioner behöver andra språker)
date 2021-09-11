@@ -1,0 +1,224 @@
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+          
+          <form>                  <!--- formen som gör ruttan för inputs --->
+          First Name:
+          <input type="text">
+          </form>
+    
+        
+    </body>
+    
+    
+    
+</html>
+________________________________________________________________________________________
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+          
+          <form>                                      
+            <label for="first_name">First Name:</label>                         <!--- label och for gör att när man klickar på texten bredvid ruttan så kommer det fokuserar på ruttans för att skriva(det finns andra kodar som kommer att funka med andra språker) --->
+            <input type="text" id="first_name" name="first_name">
+            
+            <br><br>
+            
+            <label for="last_name">Last Name:</label>                        
+            <input type="text" id="last_name" name="last_name">
+          </form>
+    
+        
+    </body>
+    
+    
+    
+</html>
+________________________________________________________________________________________________
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+          
+          <form>                                      
+            <label for="first_name">First Name:</label>                         
+            <input type="text" id="first_name" name="first_name" placeholder="Spongebob">               <!--- placeholder för att visar ex i ruttan för änvandern  --->
+            
+            <br><br>
+            
+            <label for="last_name">Last Name:</label>                        
+            <input type="text" id="last_name" name="last_name"placeholder="Squarepants">
+          </form>
+    
+        
+    </body>
+    
+    
+    
+</html>
+___________________________________________________________________________________________________
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+          
+          <form>                                    <!-- <form action="DO_SOMETHING.PHP> (här skriers var informationen i ruttarna kommer skickas till) -->                                
+            <label for="first_name">First Name:</label>                         
+            <input type="text" id="first_name" name="first_name" placeholder="Spongebob">               
+            
+            <br><br>
+            
+            <label for="last_name">Last Name:</label>                        
+            <input type="text" id="last_name" name="last_name"placeholder="Squarepants">
+            
+            <br><br>
+            
+            <input type="reset">                              <!--- reet in put för att återställa rutarna ---> 
+            
+            <br><br>
+            
+            <input type="submit">                             <!--- submit kommer kickar information till vällt plats (som skriven i form i början av dena koden --->
+            
+          </form>
+    
+        
+    </body>
+    
+    
+    
+</html>
+_________________________________________________________________________________________________________________________________________
+<!--- här är alla formers från youtube tutorialen (kolla på https://www.youtube.com/watch?v=2O8pkybH6po&ab_channel=BroCode) för att veta hur de funnkar ---> 
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My first website</title>
+</head>
+<body>
+
+    <form action="action_page.php" method="POST">
+
+        <div>
+            <label for="fname">first name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Spongebob" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname">last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Squarepants" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass">password:</label>
+            <input type="password" id="pass" name="pass" maxlength="12" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" placeholder="SPants@gmail.com">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="phone">phone #:</label>
+            <input type="tel" id="phone" name="phone" placeholder="(123)-456-7890">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bdate">birthdate:</label>
+            <input type="date" id="bdate" name="bdate">
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="title">title:</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." name="title" value="Mr.">
+
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+            <label for="PhD.">PhD.</label>
+            <input type="radio" id="PhD." name="title" value="PhD.">
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="payment">payment:</label>
+            <select id="payment" name="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select>
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="subscribe">subscribe:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" min="0" max="99" value="1">
+        </div>
+        
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+
+</body>
+</html>
