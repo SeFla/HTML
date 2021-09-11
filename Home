@@ -1,6 +1,6 @@
 <!DOCTYPE html>		<! --- difine that this is HTML5 document --->
 
-<html> 		<! --- this is the big squre your things gon'a be  --->
+<html> 			<! --- this is the big squre your things gon'a be  --->
 
 
 	<head> 		<!--- this is for head side name --->
@@ -16,7 +16,7 @@
     
     	<h1> this is heading title </h1>		<!--- there is also h2, h3, --->
         
-      <p>  this is a paragraph. <p>
+        <p>  this is a paragraph. <p>
           
         
     </body>    
