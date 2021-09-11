@@ -1,1 +1,222 @@
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">This is a link</a>   < --- så länkar man --->
+< !--- vanlig länk uttan att öppna ny flik ---> 
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		    
+
+    <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    
+  <body>
+    
+    
+    <a href="https://www.google.com/"> if you click on this, you will go to google's home webpage   </a>
+    	
+          
+        
+  </body>    
+    
+</html>
+__________________________________________________________________________________________________________________
+<! --- länk man det öpnnar nya flik när man klickar på länken ---> 
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		    
+
+    <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    
+  <body>
+    
+    
+    <a href="https://www.google.com/"target=_blank> if you click on this, you will go to google's home webpage   </a>     <!--- target=_blank som gör skillnad --->
+    	
+          
+        
+  </body>    
+    
+</html>
+______________________________________________________________________________________________________________________
+<! --- download link --->
+
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		    
+
+    <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    
+  <body>
+    
+    
+    <a href="https://www.google.com/"target=_blank> if you click on this, you will go to google's home webpage   </a>     
+    <br>
+    <br>
+     
+    <a href="meme.jbg" download="Itsmeme"> download a meme </a>     <!--- meme.jbg namnet på bilden som har vi i datroen spart med webb filen. Itsmeme är nämn som kommer bli download fil nman bli --->  
+        
+  </body>    
+    
+</html>
+__________________________________________________________________________________________________________________________
+<!--- vissa bildar i sidan och ändra storleken --->
+
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		    
+
+    <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    
+  <body>
+    
+    
+    <a href="https://www.google.com/"target=_blank> if you click on this, you will go to google's home webpage   </a>     
+    <br>
+    <br>
+     
+    <a href="meme.jbg" download="Itsmeme"> download a meme </a>
+
+    <br>
+    <br>
+
+    <img src="meme.jpg" height=50% width=50% alt="This is meme picture">    <!---storleken kan man änvända px eller % --->
+        
+  </body>    
+    
+</html>
+_______________________________________________________________________________________________________________--
+<!--- sätt bild på sidan från datoren från annan fill --->
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		    
+
+    <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    
+  <body>
+    
+    
+    <a href="https://www.google.com/"target=_blank> if you click on this, you will go to google's home webpage   </a>     
+    <br>
+    <br>
+     
+    <a href="meme.jbg" download="Itsmeme"> download a meme </a>
+
+    <br>
+    <br>
+
+    <img src="meme.jpg" height=50% width=50% alt="This is meme picture">    
+    <br>
+    <br>
+    <img src="Mina filer/HTML side/meme.jbg\meme.jpg" height=50% width=50% alt="This is meme picture">       <!--- här sätter man file location nman och sen back slash\ --->
+        
+  </body>    
+    
+</html>
+_____________________________________________________________________________________________________________________
+<!--- lägg bild från interneten ---->
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		    
+
+    <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    
+  <body>
+    
+    
+    <a href="https://www.google.com/"target=_blank> if you click on this, you will go to google's home webpage   </a>     
+    <br>
+    <br>
+     
+    <a href="meme.jbg" download="Itsmeme"> download a meme </a>
+
+    <br>
+    <br>
+
+    <img src="meme.jpg" height=50% width=50% alt="This is meme picture">    
+    <br>
+    <br>
+    <img src="Mina filer/HTML side/meme.jbg\meme.jpg" height=50% width=50% alt="This is meme picture">            
+    <br>
+    <br>
+    <img src="https://i.pinimg.com/originals/43/b4/d6/43b4d6d7fe82e1f8225b8f64ee8af31a.jpg" height=50% width=50% alt="This is another picture">  <!--- här sätter man bild addresen från internet --->
+        
+  </body>    
+    
+</html>
+______________________________________________________________________________________________________
+<!--- klicka på bilden så att den skickar dig till vallt webbsidan. valj att öppna med ny flik  --->
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		    
+
+    <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    
+  <body>
+    
+    
+    <a href="https://www.google.com/"target=_blank> if you click on this, you will go to google's home webpage   </a>     
+    <br>
+    <br>
+     
+    <a href="meme.jbg" download="Itsmeme"> download a meme </a>
+
+    <br>
+    <br>
+
+    <img src="meme.jpg" height=50% width=50% alt="This is meme picture">    
+    <br>
+    <br>
+    <img src="Mina filer/HTML side/meme.jbg\meme.jpg" height=50% width=50% alt="This is meme picture"> 
+    
+    <br>
+    <br>
+    
+    <a href="https://sv.wikipedia.org/wiki/Windows_XP"target=_blank> <img src="https://i.pinimg.com/originals/43/b4/d6/43b4d6d7fe82e1f8225b8f64ee8af31a.jpg" height=50% width=50% alt="This is another picture"> </a> <!--- <a> för detta
+        
+  </body>    
+    
+</html>
