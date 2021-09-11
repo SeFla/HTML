@@ -1,0 +1,72 @@
+<!--- this is commment --->
+
+<!doctype html>        
+
+<html> 
+
+   <head>
+        <title>
+          da best webside
+        </title>
+
+  </head>
+
+  <body>
+  <h1>heading <h1>
+  <hr>                <!--- for lines --->
+  <h2>heading <h2>
+  <h3>heading <h3>
+  <h4>heading <h4>
+  <h5>heading <h5>
+  <h6>heading <h6>
+  
+  <br> <br>            <!--- this is spacing, every br = one bar --->
+
+  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.&nbsp &nbsp Voluptate odio fuga molestias quaerat quae nobis ad, nihil culpa officiis, distinctio
+  </p>                 <!--- there is in this pargraph &nbsp its for short spacing --->
+  
+  <p> consequuntur doloribus esse dolores explicabo ab delectus.veritatis asperiores totam
+  </p>
+
+  </body>
+
+
+</html>
+_______________________________________________________________________________________________________
+<!--- test --->
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 	
+
+    <title> Test webpage </title>
+        
+  </head> 	
+    
+    
+    
+    <body>
+    
+    <h1>Translitions of Lorem </h1>
+
+    <hr>
+    <h3>Latin</h3>
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. In id animi laborum ipsa quod, voluptate rem veritatis facilis. Dolorum dolores velit similique esse cumque voluptates consequatur sed! Dolores, unde nisi!
+
+
+    <h3>Swedish </h3>
+    Smärtan i sig är viktig för det huvudsakliga adipisicing -teamet. I detta är sinnets arbete just det som, genom njutningen av saken, är lätt för sanningen. Han vill att smärtor ska vara som smärtor, och när nöjen följer, men! Smärta, varifrån men?
+
+
+    <h3>English</h3>
+    The pain itself is important to the main adipisicing elite. In this the labor of the mind is the very thing which, by the pleasure of the matter, is easy for the truth. He wants pains to be like pains, and when pleasures follow, but! Pains, whence but?  
+        
+    </body>    
+    
+</html>
+
+
+
