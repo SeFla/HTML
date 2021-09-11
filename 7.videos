@@ -1,0 +1,51 @@
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+        
+        <video controls>
+        
+            <source srce="Go_carts.mp4">                <!--- här sätter man location på filmen ---> 
+            
+        </video>
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+______________________________________________________________________________________
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+        
+        <video height=250 width=650 controls>                       <!--- man kan också ändra platsen på filmen(%ochpx) ---> <!--- loop,muted,autoplay är supported. när man tarbort controls så kommer änvadern  inte kan kontrolera filmen --->
+        
+            <source srce="Go_carts.mp4">
+            
+        </video>
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
