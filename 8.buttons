@@ -1,0 +1,228 @@
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+    
+          <button>
+          
+              click me                              <!--- här skriver man vad ska stå på knappen för text--->
+          
+          </button>
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+
+
+
+__________________________________________________________________________________
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+    
+          <button name="simple_button" type="button">                        <!--- de här name och type saknar funktioner från Java script eller phb --->
+              click me                    
+          </button>
+          
+    	    
+          <button name="submit_button" type="submit" value= "Submit">        <!--- value är änvändbar för phb ---> 
+              Submit
+          </button>
+          
+          
+          
+          <button name="reset_button" type="reset" value= "Reset">        <!--- rest knappen för rest forms ---> 
+              Reset
+          </button>
+          
+          
+        
+    </body>
+    
+    
+    
+</html>
+___________________________________________________________________________________________________________________________
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+    
+          <button disabled>       <!--- avstäng knapp funktion--->
+          
+              Disabled                              
+          
+          </button>
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+______________________________________________________________________________________________________________________________
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+    
+          <button autofocus>       <!--- foukuserat kanpp --->
+          
+              Autofocs                              
+          
+          </button>
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+________________________________________________________________________________________________________________________________
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+    
+          <button onclick="alert('alarm meddelandet')">       <!--- alarm meddelande knapp  --->
+          
+              Alarm                            
+          
+          </button>
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+________________________________________________________________________________________________________
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+    
+          <a href="https://www.google.com">                         <!--- knapp som skickar dig till google websidan --->
+          <button>
+          
+              Google                            
+          
+          </button>
+    	    </a>
+          
+        
+    </body>
+    
+    
+    
+</html>
+
+__________________________________________________________________________________________________________________________
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+    
+    <br>
+    <br>
+          <button style="background-color:#97f7cc;">              <!--- för att byta knapp backgrund färg --->
+          
+              css style                              
+          
+          </button>
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+__________________________________________________________________________________________________________
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+    
+    <br>
+    <br>
+          <button style="background-color:#97f7cc;
+                                    color: #49aabf;                 <!--- text färg --->       
+                                    font-size: 18px;                   <!--- text storlek --->    
+                                    font-family: monospace;">             <!--- typsnitt --->       
+                                    
+              css style                              
+          
+          </button>
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+
+
+
+
+
+
+
