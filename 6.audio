@@ -1,0 +1,78 @@
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+    
+      <audio>
+      
+          <sourece src="How Many Lies.mp3">                    <!--- här sätter man mp3 fill som är med i webb filen på dattor.Texten under är för If låten inte funkar--->     
+          your browser doesn't support audio
+      </audio>
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+__________________________________________________________________________________________________________
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+    
+      <audio>
+      
+          <sourece src="c:\Users\SeFla\Desktop\How Many Lies.mp3">                    <!--- här sätter man låt som finns i andra plats i datoren--->     
+          your browser doesn't support audio
+      </audio>
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+________________________________________________________________________________________________________________________________
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+    </head> 	
+    
+    
+    <body>
+    
+      <audio  controles loop>                           <!--- loop för att loopa låten.Man kan ocså änvanda mute, autoplay och om man tarbort controls och sätter bara autoplay så kommer änvändern inte kunna stopa ljudet --->  --->
+      
+          <sourece src="How Many Lies.mp3">                         
+          your browser doesn't support audio
+      </audio>
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+
