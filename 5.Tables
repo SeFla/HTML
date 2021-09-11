@@ -1,0 +1,123 @@
+<!DOCTYPE html>		
+<!--- ex. på tables ---> 
+
+<html> 			
+
+	<head> 		   
+    	   <title> da best webpage </title
+  	</head> 	
+    
+    
+  <body>
+    
+    
+    	<h2> personal finances :( </h2>
+
+      <table border=2px>
+	  
+	  
+      <tr>                                    <!--- tr för table roll --->
+	 <th> month:   </th>                  <!--- th för table heading --->
+	 <th> January: </th>         
+	 <th> February:</th>                       
+	 <th> March:   </th>
+	 <th> April:   </th>
+      </tr>
+
+      <tr>
+         <th> income:</th>
+         <td> $1500  </td>                     		<!--- td för table data --->
+         <td> $1750  </td>
+         <td> $1250  </td>
+         <td> $500   </td>          
+      </tr>
+
+      <tr>
+          <th> expenses:</th>
+          <td> -$500   </td>
+          <td> -$1000  </td>
+          <td> -$750   </td>
+          <td> -$500   </td>
+      </tr>
+
+      <tr>
+          <th> savings:</th>
+          <td> -$1000  </td>
+          <td> -$750   </td>
+          <td> -$500   </td>
+          <td> -$350   </td>
+      </tr>
+      
+
+
+
+	 </table>
+        
+  </body>
+    
+    
+    
+</html>
+_______________________________________________________________________________________________
+<!--- färgea bordet --->
+<!DOCTYPE html>		
+
+
+<html> 			
+
+	<head> 		   
+    		<title> da best webpage </title
+       </head> 	
+    
+    
+  <body>
+    
+    
+      <h2> personal finances :( </h2>
+
+      <table border=2px bgcolor="black">		     <!--- bgcolor här är för bordets färg
+	  
+	  
+	<tr bgcolor="grey">                                   <!--- tr för table roll ---> <!--- bgcolor är för färegen --->
+	
+	 <th height=10 width=75> month:   </th>               <!--- th för table heading --->  <!--- height,width för positionen(px och %), man kan köra på border i table funktion också --->
+	 <th height=10 width=75> January: </th>         
+	 <th height=10 width=75> February:</th>                       
+	 <th height=10 width=75> March:   </th>
+	 <th height=10 width=75> April:   </th>
+	  
+        </tr>
+
+      <tr bgcolor="yellow"  align=center>		    <!--- aligen för att centerlera(man kan änvanda left,rihgt,center) alt som är ine i income ---->
+         <th> income:</th>
+         <td> $1500  </td>                     		     <!--- td för table data --->
+         <td> $1750  </td>
+         <td> $1250  </td>
+         <td> $500   </td>          
+      </tr>
+
+      <tr bgcolor="red"    align=center>
+          <th> expenses:</th>
+          <td> -$500   </td>
+          <td> -$1000  </td>
+          <td> -$750   </td>
+          <td> -$500   </td>
+      </tr>
+
+      <tr bgcolor="green"  align=center>
+          <th> savings:</th>
+          <td> -$1000   </td>
+          <td> -$750  </td>
+          <td> -$500   </td>
+          <td> -$350   </td>
+      </tr>
+      
+
+
+      </table>
+        
+  </body>
+    
+    
+    
+</html>
