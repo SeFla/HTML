@@ -1,1 +1,213 @@
+<!-- oordnat lista och style ---> 
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		    
+
+    <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    
+    <body>
+
+        <h3>Grocery list</h3>
+
+        <ul style="List-style-type:disk">               <!--- här är extra sak och det är från css i style som byter list style(för att tabort style sätt bara <ul>listan efter</ul> --->    
+
+            <li>bread dough</li>
+            <li>tomato sauce</li>
+            <li>cheese</li>    
+            <li>peppers</li>        
+
+        </ul>
+    
+    	
+          
+        
+    </body>    
+    
+</html>
+__________________________________________________________________________________________________________________
+<!-- ordnat lista  ---> 
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		    
+
+    <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    
+    <body>
+
+        <h3>Grocery list</h3>
+
+        <ul style="List-style-type:disk">                   
+
+            <li>bread dough</li>
+            <li>tomato sauce</li>
+            <li>cheese</li>    
+            <li>peppers</li>        
+
+        </ul>
+        
+        <h3> To do list </h3>
+          
+          <ol type="1"> 
+              <li>sätt ugnen på 180 grader värmluft</li>          <!--- ol för ordnat lista. type är för style från html, man kan änvända I,i,A,a,1 som skall byta list style -->
+              <li>gör pizzan hur du vill</li>
+              <li>öppna ugnens lock </li>
+              <li>lägg pizzan ine</li>
+          </ol>
+    	
+          
+        
+    </body>    
+    
+</html>
+______________________________________________________________________________________________________________________________________________________
+<!-- man kan starta från hundra som ska vara listans start och 101,102 etc  ---> 
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		    
+
+    <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    
+    <body>
+
+        <h3>Grocery list</h3>
+
+        <ul style="List-style-type:disk">                   
+
+            <li>bread dough</li>
+            <li>tomato sauce</li>
+            <li>cheese</li>    
+            <li>peppers</li>        
+
+        </ul>
+        
+        <h3> To do list </h3>
+          
+          <ol type="1" start="100">                                                   <!--- man kan änvnda andra symoler än siffror --->
+              <li>sätt ugnen på 180 grader värmluft</li>          
+              <li>gör pizzan hur du vill, lmao</li>
+              <li>öppna ugnens lock </li>
+              <li>lägg pizzan ine</li>
+          </ol>
+    	
+          
+        
+    </body>    
+    
+</html>
+___________________________________________________________________________________________________________________________________
+<!--- description list --->
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		    
+
+    <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    
+    <body>
+
+        <h3>Grocery list</h3>
+
+        <ul style="List-style-type:disk">                   
+
+            <li>bread dough</li>
+            <li>tomato sauce</li>
+            <li>cheese</li>    
+            <li>peppers</li>        
+
+        </ul>
+        
+        <h3> To do list </h3>
+          
+          <ol type="1" start="100">                                                   
+              <li>sätt ugnen på 180 grader värmluft</li>          
+              <li>gör pizzan hur du vill, lmao</li>
+              <li>öppna ugnens lock </li>
+              <li>lägg pizzan ine</li>
+          </ol>
+    	  
+       <h3> web dev languages </h3>                         <!--- di för description list och dt för description term --->
+       
+          <dl> 
+              <dt> HTML </dt>
+              <dd> adds strukture to webpage </dd>           <!--- dd för description details --->
+              
+              <dt> CSS </dt>
+              <dd> adds style to webpage </dd>
+              
+              <dt> Javascript </dt>
+              <dd> adds functionality to the webpage </dd>
+          
+          </dl>
+          
+        
+    </body>    
+    
+</html>
+____________________________________________________________________________________________________________________________
+
+<!--- ex. på nested list --->
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		    
+
+    <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    
+    <body>
+
+        <h3>Grocery list 2.0</h3>
+
+        <ul style="List-style-type:disk">                   
+
+            <li>bread dough</li>
+            <li>tomato sauce</li>
+            <li>cheese</li>    
+            <li>toppings 
+                <ul> papper </ul>                     <!--- här sätter man listor i listor. man kan byta style också, see första ex i documentet --->
+                <ul> salt </ul>
+            </li>        
+
+        </ul>
+        
+        
+        
+    </body>    
+    
+</html>
+
+
+
 
