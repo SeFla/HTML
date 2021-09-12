@@ -1,0 +1,42 @@
+<!--- det finns två sidor till dinna kod förklarning--->
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+  
+        <link rel="stylesheet" type="text/css" herf="namnpåfilen.css"       <!--- vi länkar till annan kod sida--->
+  
+  
+        <title> da best webpage </title>
+  </head> 	
+    
+    
+    <body>
+          
+          <h1> Font Demo </h1>
+          
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam minima vitae explicabo minus doloremque accusantium temporibus sapiente.
+          Amet aperiam voluptatibus odio sapiente esse soluta numquam dolore? Doloremque qui corporis laboriosam!</p>
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+________________________________
+<!--- sida nummer 2 på samma förklarning --->
+
+
+p
+{
+    font-family: "Ink Free,"MV Boli";                          <!--- det finns två typsnitar, den första som kommer funka om änvanderns webb läsaren inte tar den första typsniten så kommer den tar den andra--->
+    font-style: italic;
+    font-weight: bold;
+    font-size:   16:px;                                       <!--- typsnitt storlek(det finns px och det är 16px som är standar och det finns em och 1em är stander storlek)--->
+    text-decoration:underline;                                <!--- underlinal for texten--->
+    color: #00AA00;                                           <!--- färg på text--->
+}
