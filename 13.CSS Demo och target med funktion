@@ -1,0 +1,199 @@
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+  </head> 	
+    
+    
+    <body style="background-color:#111111;color:#808080">       <!--- backgrunden är svart(#808080) och texten är grå--->
+    
+    <h1> CSS Demo </h1>                                         <!--- om man flyttar stylen övan till bara <h1> så kommer bara h1 tittlen ändras--->
+    
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate et adipisci earum quam cum magnam,
+    quisquam nostrum, mollitia, deserunt autem asperiores non facere molestias nulla. Quos consequatur rerum necessitatibus itaque.</p>
+    
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+_____________________________________________________________________________________________________________________________-
+<!---änvanda funktion som "target" p eller h1 eller h2 osv som kan ändras färg --->
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		
+        
+        <style>
+        p {
+                background-color:#FFFFFF;color:#000000;           <!--- med funktionen style kan vi ändra färge och backgrund text till kommande paragrafer--->                   
+          }
+        </style>
+  
+  
+  
+        <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    <body>      
+    
+    <h1> CSS Demo </h1>                                         
+    
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate et adipisci earum quam cum magnam,
+    quisquam nostrum, mollitia, deserunt autem asperiores non facere molestias nulla. Quos consequatur rerum necessitatibus itaque.</p>
+    
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+_______________________________________________________________________________________________________________________
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		
+        
+        <style>
+        #paragraph1                                             <!--- vi har mål på paragraph1 som vi kan ändra dears background,färg från denna funktion--->
+          {
+                background-color:#FF0000;color:#000000;         <!--- man kan byta till paragraph2 eller3 osv(alltså spasfik paragraph ändring--->                       
+          }
+        </style>
+  
+  
+  
+        <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    <body>      
+    
+    <h1> CSS Demo </h1>                                         
+    
+    <p id="paragraph1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate et adipisci earum quam cum magnam,
+    quisquam nostrum, mollitia, deserunt autem asperiores non facere molestias nulla. Quos consequatur rerum necessitatibus itaque.</p>     <!--- vi gör target med id--->
+    
+    
+    <p id="paragraph2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate et adipisci earum quam cum magnam,
+    quisquam nostrum, mollitia, deserunt autem asperiores non facere molestias nulla. Quos consequatur rerum necessitatibus itaque.</p>
+    
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+__________________________________________________________________________________________________________________________
+<!--- class änvander som id man se ex. för förståelse--->
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		
+        
+        <style>
+        .top                                                  <!--- här skriver vi class namnet efter punt( man kan också sätt specific class ex. p.top så att p tar classen top--->
+          {                                                   <!--- man kan också sätta h1,p,h2 osv istället för class så kommer det gör target för de bara--->
+                background-color:#111111;color:#00aa00;                                
+          }
+        </style>
+  
+  
+  
+        <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    <body>      
+    
+    <h1 class="top"> CSS Demo </h1>                                         
+    
+    <p class="top"id="paragraph1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate et adipisci earum quam cum magnam,     <!---här sätter vi class och värde --->
+    quisquam nostrum, mollitia, deserunt autem asperiores non facere molestias nulla. Quos consequatur rerum necessitatibus itaque.</p>     
+    
+    
+    <p id="paragraph2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate et adipisci earum quam cum magnam,
+    quisquam nostrum, mollitia, deserunt autem asperiores non facere molestias nulla. Quos consequatur rerum necessitatibus itaque.</p>
+    
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+_____________________________________________________________________________________________________
+<!--- ny sidan på target--->
+<!--- nämna filen som namn.css (med sidans filar)--->
+<!--- länka dena huvd sidan till (namn.css filen)--->
+<!--- det finns andra sidan i denna förklarning--->
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		
+         <link rel=stylesheet" type="text/css" herf="namn.css">                                             <!--- här är länken till nman.css filen.(nman.css är filens namn)--->
+       
+  
+  
+  
+        <title> da best webpage </title>
+        
+  </head> 	
+    
+    
+    <body>      
+    
+    <h1> CSS Demo</h1>                                         
+    
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate et adipisci earum quam cum magnam,     
+    quisquam nostrum, mollitia, deserunt autem asperiores non facere molestias nulla. Quos consequatur rerum necessitatibus itaque.</p>     
+    
+    
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate et adipisci earum quam cum magnam,
+    quisquam nostrum, mollitia, deserunt autem asperiores non facere molestias nulla. Quos consequatur rerum necessitatibus itaque.</p>
+    
+    
+    	
+          
+        
+    </body>
+    
+</html>
+__________________________________
+<!--- andra sidan på föra förklirning--->
+
+h1
+{
+    background-color:#111111;color:#00aa00                <!--- här byter vi h1 backgrund färg och text färg till första sidan--->
+}
+
+p
+{
+    background-color:#111111;color:#00ff00                <!--- och även p samma sak--->
+}
+
+
+
