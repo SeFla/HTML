@@ -1,0 +1,57 @@
+<!--- det finns två sidor i denna förklarning--->
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+        
+        <link rel="stylesheet" type="text/css" herf="fillnamn.css">              <!--- länkar fillnmanen.css filen---> 
+        
+  </head> 	
+    
+    
+    <body>  
+    
+    <h1> Font Demo </h1>
+          
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam minima vitae explicabo minus doloremque accusantium temporibus sapiente.
+          Amet aperiam voluptatibus odio sapiente esse soluta numquam dolore? Doloremque qui corporis laboriosam!</p>
+    
+        
+    </body>
+    
+    
+    
+</html>
+_______________________________
+
+p
+{   
+    padding: 5px;                     <!--- padding är distans mellan bordet och texten--->
+    border-style: solid;
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: groove;
+    border-style: inset;
+    border-style: outset;             <!--- OBS sissta border style kommer verka --->
+    
+    border-width: 3px;                <!--- border bredd man kan sätta olika bredd på border ex. 3px 5px 3px 5px (4 längdar)--->
+    border-color: #00FF00;            <!--- färge på border--->
+    border-radius: 10px               <!--- radius är rundar border--->
+                                      
+
+}
+
+h1                                    <!--- man kan target specific sida på border--->
+
+{
+    border-top-style:dotted;
+    border-bottom-style:dotted;
+    border-left-style:solid;
+        
+    border-left-width:10px;       <!--- border bredd--->
+        
+    border-left-color:#00FF00;    <!--- specific färg på ena sidan på border(man sätta villken sida som helst--->
+}
