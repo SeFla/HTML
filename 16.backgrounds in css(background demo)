@@ -1,0 +1,65 @@
+<!--- ladda ner bild och sätt den med webb filen--->
+<!--- det finns två sidor på denna förklaring ---> 
+
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <link rel="stylesheet" type="text/css" href="style.css">          <!--- vi länkar filen till andra css fill--->
+  
+  
+        <title> da best webpage </title>
+  </head> 	
+    
+    
+    <body>
+          <h1> background demo </h1>
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+___________________________________________
+<!--- sida nummer två till samma förklarning--->
+
+html                                                      <!--- vi target hela html koden för att sätta bild backgrund--->
+{
+  background-image: url("namnpåbilden.png");              <!--- här kan man änvanda valt bild, uttan valt bild kommer koden köra på stander altså vit eller vallt färg--->
+  
+  background-color: #FFFFFF;                              <!--- man kan änvda ord för färg ex. black, eller hex code färg eller rgb(100,255,75); --->
+  background:linear-gradient(grey,black);                 <!--- OBS det kommer att köra den sista backgrounden och inte color:#FFFFFFK;  linear-gradient är för shiftat backgrund --->
+  background-repeat: no-repeat;                           <!--- för att inte repetera backgrunden efter texten är slut i html kod --->
+  background-position: center;                            <!--- position center kommer att centerlera bilden i mittan--->
+  background-size: cover;                                 <!--- size cover kommmer att fylla hlav (beror på texten eller html bilden) --->
+  background-attachment: fixed;                           <!--- fixed gör bilden full screen --->
+}
+
+______________________________________________________________________________________________________________________________________
+<!--- man kan sätta specific backgrund till ex. h1 (i css filen) --->
+
+h1
+{
+  background: linear-gradient(red,orange,yellow,green,blue,indigo,violet);            <!--- man kan sätta hex färg eller rgb eller ord ex blue,red etc --->
+}
+__________________________________________________________________________________________________________________________________________
+<!--- even p kan man sätta backgrund till(i css fill) --->
+
+
+p
+{
+      background: linear-gradient(to right,grey,black);          <!--- man kan byta färg ordning och det änvnds to right eller to top, eller to left osv ---> 
+
+}
+____________________________________________________________________________________________________________________________________________
+<!--- för att göra alla paragrafer får samma backgrund(stander  är det delat backgrunder på paragrafer) så behöver vi sätta de i dev tag och id --->
+
+
+
+
+<!--- sätt in ( div id="mytext" ) i början av den första paragrafen och sen ( /dev ) i sissta paragrafen.  I css filen kan vi target paragrafers backgrund(#mytext {backgroud: linear-gradient(to right,grey,black); } --->  
