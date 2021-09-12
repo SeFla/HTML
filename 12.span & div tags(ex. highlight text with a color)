@@ -1,0 +1,35 @@
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+  </head> 	
+    
+    
+    <body>
+    
+    <h1> Span tag </h1>
+    
+    <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et voluptatem, cumque                         <!--- highlight text with color(   <span style="color:red"> type your text here aslkdfeon bla bla bla </span>   )--->
+		<span style="color:blue">tempore corporis nihil quia dolores molestias culpa quis unde temporibus</span>
+		dolorum laborum excepturi corrupti eligendi velit necessitatibus? Debitis, accusamus?
+    </p>
+    
+    
+    <h1> Div tag </h1>
+    
+    <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et voluptatem, cumque
+		tempore corporis nihil<div style="color:red"> quia dolores molestias culpa quis unde temporibus               <!--- när man börjar med div tag så saprerar paragrefen med färg--->
+		dolorum laborum excepturi corrupti eligendi </div>velit necessitatibus? Debitis, accusamus?
+    </p>
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
