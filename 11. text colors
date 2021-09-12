@@ -1,0 +1,29 @@
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+  </head> 	
+    
+    
+    <body style="background-color:##abc3f3">                                              <!--- background color for screen--->
+    <h1 style="color:#d9a0af;background-color:#b1b99f"> I like colors :O! </h1>           <!--- bytar färgen på största tittlen. backgrunden på hela ruttan kan också ändras(;background-color etc.. ---> 
+    
+    <p style="color:#4fc1ff;background-color:#02363b">Lorem ipsum dolor, sit amet consectetur adipisicing elit.                          <!--- bytar färg på paragraph(även backgrunden--->
+    Neque a cumque explicabo,perspiciatis ipsa veritatis
+    quibusdam obcaecati harum autem sequi nobis velit odio porro asperiores?
+    Similique impedit atque dicta inventore.</p>
+    
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    Neque a cumque explicabo,perspiciatis ipsa veritatis
+    quibusdam obcaecati harum autem sequi nobis velit odio porro asperiores?
+    Similique impedit atque dicta inventore.</p>
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
