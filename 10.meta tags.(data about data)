@@ -1,0 +1,31 @@
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+        <meta charset="UTF-8">                                                      
+        <meta name="keywords" content="HTML,tuttorial,Bro Code,Youtube">           <!--- discrabe what our side is about --->
+        <meta name="descrption" content="Bro Code HTML tutorial for beginners">    <!--- search engines can picup these discrption to learn about the page --->
+        <meta name="author" content="Bro Washington">                             <!--- data about the author --->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">     <!--- screen settings for mobaile --->
+        <meta http-equiv = "refresh" content="30">                                  <!--- refreshing the side every 30 seconds --->
+        
+  </head> 	
+    
+    
+    <body>
+          <h1>test</h1>
+          <h1>refresh</h1>
+          <h1>test</h1>
+          <h1>refresh</h1>
+          <h1>test</h1>
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
