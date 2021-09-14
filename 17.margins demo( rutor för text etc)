@@ -1,0 +1,68 @@
+<!--- denna sidan ineehåller två kod sidor--->
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+  </head> 	
+    
+    
+    <body>
+    <h1> margin demo </h1>
+      
+    	<p id="p1"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam minima vitae explicabo minus doloremque accusantium temporibus sapiente.
+          Amet aperiam voluptatibus odio sapiente esse soluta numquam dolore? Doloremque qui corporis laboriosam! </p>
+          
+          
+          <p id="p2"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam minima vitae explicabo minus doloremque accusantium temporibus sapiente.
+          Amet aperiam voluptatibus odio sapiente esse soluta numquam dolore? Doloremque qui corporis laboriosam! </p>
+          
+        
+    </body>
+    
+    
+    
+</html>
+_______________________________________
+ /*andra sidan på koden*/
+
+ html
+ {
+    margin-top: -21px;        /*detta target för h1 plats*/
+    margin-left: -8px;
+ }
+
+h1
+{
+  border: 1px solid;
+  width: 300px;
+  margin-bottom:0px;
+  
+}
+
+p
+{
+  border: 1px solid;
+  width: 250px;
+  padding: 25px;          /*padding är avståndet mellan texten och ruttan*/
+         
+  
+}
+
+#p1                         /* det är klassen i första sidan som heter p1 */
+{
+   margin: 25px;             /* margin är avståndet mellan ruttan och själva skärmen */
+}
+
+#p2
+{
+  margin-top: 25px;
+  margin-right: 75px;
+  margin-bottom: 25px;
+  margin-left: 75px;      /* margin-left: auto; kommer margin bli på höger sidan medan margin-right: auto, kommer det blir vänster. bara margin auto kommer det bli center.  */
+}
+
+
+
