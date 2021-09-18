@@ -1,0 +1,131 @@
+<!--- det finns två olika shadows, för text och box --->
+<!--- denna kod sida är två sidor -->
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+  </head> 	
+    
+    
+    <body>
+            <h1> Shadow demo</h1>
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+___________________________________
+/*andra sidan*/
+h1
+{
+  border: 1px solid;      <!--- border är för boxen eller rutan som texten ligger --->
+  width: 200px;
+  padding: 25px;
+  
+  text-shadow: 2px 2px 5px purple;         <!--- den är för text shadow och har 4 värde. Efter koma "," så är det ny shadow  --->
+  /*
+    horizontal (px)       <!--- alla de är värde till shadow (positiv och nigtiv -och+ som uppe och ner --->
+    vertical (px) 
+    blur (px)
+    color (name,rgb eller hex)
+    
+  */
+  
+  box-shadow: 0;
+  
+  /*
+    horizontal (px)     <!--- alla de är värde till shadow (positiv och nigtiv -och+ som uppe och ner.(box shadow är samma som första ex på text shadow men box shwadow gör target på html elment) --->
+    vertical (px)
+    blur (px)
+    color (name,rgb eller hex)
+    
+  */
+
+}
+__________________________________________________________________________________________________________________________________________
+<!--- ex på shadows --->
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+        <link rel="stylesheet" href="style.css">
+  </head> 	
+    
+    
+    <body>
+            <h1> Shadow demo</h1>
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+__________________________
+
+h1
+{
+  border: 1px solid;
+  width: 200px;
+  padding: 25px;
+
+  text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+
+
+  box-shadow: 10px 10px 5px #666666;
+
+}
+_________________________________________________________________________________________________________
+<!--- avanceard ex--->
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+        <link rel="stylesheet" href="style.css">
+  </head> 	
+    
+    
+    <body>
+            <h1> Shadow demo</h1>
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+________________________________
+h1
+{
+  border: 1px solid;
+  width: 200px;
+  padding: 25px;
+  background-color: black;  <!--- background på själva boxen eller ruten--->
+  color: white;             <!--- text färg i ruttan --->
+  border-color: black;      <!--- rutans färg--->
+
+  text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+
+
+  box-shadow: 10px 10px 5px #666666;
+
+}
+
+
+
