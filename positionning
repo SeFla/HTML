@@ -1,0 +1,321 @@
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+        <link rel="stylesheet" href="style.css">
+  </head> 	
+    
+    
+    <body>
+    
+      <!---text alignment --->
+      <p id="p1"> LEFT </p>
+      <p id="p2"> CENTER </p>
+      <p id="p3"> RIHGT </p>
+      
+      <!---float property --->
+      <!---position property --->
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+__________________________
+#p1
+{
+  text-align: left;
+}
+
+#p2
+{
+  text-align: center;
+}
+
+#p3
+{
+  text-align: right;
+}
+
+___________________________
+<!--- man kan sätta breden på 250px och koden kommer körs på 250 left right exakt --->
+
+p
+{
+  border: 1px solid;
+  width: 250px;
+}
+#p1
+{
+  text-align: left;
+}
+
+#p2
+{
+  text-align: center;
+}
+
+#p3
+{
+  text-align: right;
+}
+
+______________________________________________________________________________________________________________
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+        <link rel="stylesheet" href="style.css">
+  </head> 	
+    
+    
+    <body>
+    
+      <!---text alignment --->
+      <!---float property --->
+      
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1024px-HP_logo_2012.svg.png"
+      height=10% width=10% alt="This is another picture">                                                 <!--- som stander så tar bilden en hel block och ingenting kommer bredvid bilden, men det går att sätt text ex bredvid bilden--->
+      
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Voluptatum aperiam inventore nisi officia non ab possimus eum,
+      cumque, eligendi, eius iure in nihil sed ipsa labore nobis reiciendis accusantium ipsam
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Voluptatum aperiam inventore nisi officia non ab possimus eum,
+      cumque, eligendi, eius iure in nihil sed ipsa labore nobis reiciendis accusantium ipsam.</p>
+
+      <!---position property --->
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+_______________________________
+img
+{
+  float: left;                           /* med hjälp av float så kan man sätta bilden över saker istället att låta den tar en del plats och ingen som tx text kan vara bredvid den(left,right) */
+  margin: 5px;                           /* med margin så kan vi sätta av stånd efter bliden (se koden på helhet)*/
+  
+}
+_______________________________
+<!--- vi kommer änvanda div för att sätta allting i div ska vara i border --->
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+        <link rel="stylesheet" href="style.css">
+  </head> 	
+    
+    
+    <body>
+      
+      <div>
+      <!---text alignment --->
+      <!---float property --->
+      
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1024px-HP_logo_2012.svg.png"
+      height=10% width=10% alt="This is another picture">                                                 <!--- som stander så tar bilden en hel block och ingenting kommer bredvid bilden, men det går att sätt text ex bredvid bilden--->
+      
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Voluptatum aperiam inventore nisi officia non ab possimus eum,
+      cumque, eligendi, eius iure in nihil sed ipsa labore nobis reiciendis accusantium ipsam
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Voluptatum aperiam inventore nisi officia non ab possimus eum,
+      cumque, eligendi, eius iure in nihil sed ipsa labore nobis reiciendis accusantium ipsam.</p>
+
+      <!---position property --->
+    	
+       </div>
+        
+    </body>
+    
+    
+    
+</html>
+_______________________________
+img
+{
+  float: left;                           /* med hjälp av float så kan man sätta bilden över saker istället att låta den tar en del plats och ingen som tx text kan vara bredvid den(left,right) */
+  margin: 5px;                           /* med margin så kan vi sätta av stånd efter bliden (se koden på helhet)*/
+}  
+div
+{
+  border: 1px solid;
+  width: 500px;                       /* width och even hight */
+
+}
+  
+
+______________________________________________________________________________________________________________________
+<!--- position property --->
+
+
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+        <link rel="stylesheet" href="style.css">
+  </head> 	
+    
+    
+    <body>
+    
+      <!---text alignment --->
+      <!---float property --->
+      <!---position property --->
+      
+      <h1>  </h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Voluptatum aperiam inventore nisi officia non ab possimus eum,
+      cumque, eligendi, eius iure in nihil sed ipsa labore nobis reiciendis accusantium ipsam
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Voluptatum aperiam inventore nisi officia non ab possimus eum,
+      cumque, eligendi, eius iure in nihil sed ipsa labore nobis reiciendis accusantium ipsam.</p>
+      
+      
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+____________________________________
+h1
+{
+  border:  1px solid;
+  background: yellow;
+  width: 200px;
+  
+  position: fixed;                /* postion fixed är fast position och vi sätter från ex höger eller vänster eller topen eller (left,right,bottom,top)  100px avstånd. I den ex är positionen fixed och den ligger på höger  */
+  bottom: 0px;
+  right: 0px;
+}
+____________________________________
+h1
+{
+  border:  1px solid;
+  background: yellow;
+  width: 200px;
+  
+  position: relative;                /* relative är stander positionen som h1 brukar vara i, så från denna position kan vi flytta h1 ex 50px bottom och 20px right   */
+  bottom: 0px;
+  right: 0px;
+}
+
+___________________________________________<!--- position property sticky --->________________
+h1
+{
+  border:  1px solid;
+  background: yellow;
+  width: 200px;
+  
+  position: sticky;                /* sticky är fast position det innebär att när man skrollar ner på sida så hänger med denna h1 (fast på toppen)   */
+  top: 0px;
+}
+___________________________________________<!--- position property static --->________________
+h1
+{
+  border:  1px solid;
+  background: yellow;
+  width: 200px;
+  
+  position: static;                /* static är äterställning till positionen (till stander position)   */
+  
+}
+___________________________________________<!--- position property absolute --->________________________________________________________________________________
+<!--- den sidan innhåller två kod sidor--->
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+        <link rel="stylesheet" href="style.css">
+  </head> 	
+    
+    
+    
+    <body>
+      
+      <div id="box1"> This is relative                <!--- vi har här två div, den andra är inne i första --->
+      
+      <div id ="box2"> This is absolute </div>        <!--- box2 altså andra div som ska vara inne i första div --->
+      
+      </div>
+    
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+_____________________
+
+#box1 
+{
+  position: relative;                   /* här sätter vi style på box 1 (om vi flytar box1 så kommer box två med */
+  background-color: lightgrey;
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  
+  top: 100px;
+  left: 150px;                        /*här */
+}
+
+#box2
+{
+  position: absolute;                 /* här sätter vi style på box 2(positionen på box2 är beroende på position box1, eftersom box två är div i box ett) */
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  
+  top: 50px;                          /* här flytar vi box 1 */
+  left: 50px;
+}
+_____________________________
+/*för att centerlera box 1*/
+
+#box1 
+{
+  position: relative;                   /* här sätter vi style på box 1 (om vi flytar box1 så kommer box två med */
+  background-color: lightgrey;
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  
+  top: 100px;
+  margin-left: auto;                        /*här centerlear med margin */
+  margin-right:  auto;
+}
+
+#box2
+{
+  position: absolute;                 /* här sätter vi style på box 2(positionen på box2 är beroende på position box1, eftersom box två är div i box ett) */
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  
+  top: 50px;                          /* här flytar vi box 1 */
+  left: 50px;
+}
+
