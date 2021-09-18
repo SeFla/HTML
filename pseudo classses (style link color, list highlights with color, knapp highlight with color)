@@ -1,0 +1,130 @@
+<!--- dena sidan innehåller två sidor--->
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+  </head> 	
+    
+    
+    <body>
+    
+        <a href="https://www.google.com"> www.google.com </a>         <!--- standar färg på länken är blå, efter kliken på länken så blir länken lila färg som stander, men man kan byta färger-->
+        <br><br>
+        <button type="button">click me (; </button>
+        
+        <ul>
+            <li> This is item #1 </li>
+            <li> This is item #2 </li>
+            <li> This is item #3 </li>
+            <li> This is item #4 </li>
+            <li> This is item #5 </li>
+            <li> This is item #6 </li>
+            <li> This is item #7 </li>
+            <li> This is item #8 </li>
+            <li> This is item #9 </li>
+            <li> This is item #10 </li>
+    	
+          
+        
+    </body>
+    
+</html>
+____________________________
+/*andra sidan på samma program */
+  
+a:link        /* vi byter färgen på stander färg från blå */
+{
+  color: #78ffd0;
+}
+
+a:visited     /* vi byter färgen på efter kliken från stander "lila" till rosa */ 
+{
+  color: #d359ff;
+
+}
+
+
+
+button:hover    /* den styler färgen för när man bikar på kanppen*/
+{
+  background-color: #ff4529;
+  color: white;     /*den byter frärgen på texten i knappen */
+}
+
+button:active
+{
+  background-color: #d13b24;      /*den byter backgrund färgen när vi klikar på den */
+
+}
+
+
+
+
+li:first-child            /*den byter backgrund färgen på alltid första meningen  */
+{
+  background-color:#93ff7d;       
+
+}
+
+li:last-child            /*den byter backgrund färgen på alltid sista meningen  */
+{
+  background-color:#93ff7d;       
+
+}
+
+li:nth-child(5)         /*den gör target på specifika lista när man sätter nummer på listan*/
+{
+    background-color: #93ff7;
+
+}
+___________________________________________________________________________________________________
+li:nth-child(odd)         /* man kan sätta "odd" för att targetera udda siffror i listan eller "even" för jämna siffror i listan */
+{
+    background-color: #93ff7;
+
+}
+
+_______________________________
+
+
+li:nth-child(odd)         /* om man sätter båda odd och even och sätter två olika backgrund färger på de så kommer blir skillnad på de */
+{
+    background-color: #93ff7;
+
+}
+
+li:nth-child(even)         
+{
+    background-color: #caffbf;
+
+}
+_________________________________________________________________________________________________________
+/* det finns uttryck för att välja specifica siffror för att ändra färge eller något annat */
+/* den ska vara på css sidan */
+
+
+/*
+
+li:nth-child(an+b)
+{
+  nth-child(an+b)
+  a = cycle size
+  n = counter (startes at 0)
+  b = offset value
+}
+
+*/
+
+______________________
+/* ex på den uttryck */
+
+li:nth-child(3n+0)
+{
+  background-image: linear-gradient(to right,#fff421,#ffffff);
+  
+  
+  opacity:0.5;                      /*man kan också sätta andra effecter INTE bara färger*/
+  border: 1px solid;
+}
