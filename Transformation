@@ -1,0 +1,73 @@
+<!DOCTYPE html>		
+
+<html> 			
+
+	<head> 		   
+        <title> da best webpage </title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head> 	
+    
+    
+    <body>
+    
+        <p id="p1"> Hi </p1>
+        <br>
+        <p id="p2"> Hi </p1>
+   
+    </body>
+    
+    
+    
+    
+    
+    
+    
+    
+    ___________________
+    /*andra sidan(andvänd få av de ) */
+    
+    p
+    {
+    width: 100px;
+    background-color: red;
+    font-size: 85px;
+    text-align:center: center;
+    margin: 0px;
+    }
+    
+    #p1
+    {
+    
+    }
+ 
+ #p1
+    {
+      transfrom: translateX(50px);
+      transfrom: translateY(50px);
+      transfrom: translate(50px,50px);    /*det här som de första x och y och det blir = 50px for x och 50px for y*/
+      transfrom: rotateX(180deg);
+      transfrom: rotateY(180deg);
+      transfrom: rotateZ(180deg);
+      transfrom: rotate(180deg);
+      transfrom: scaleX(2);
+      transfrom: scaleY(0.5);
+      transfrom: scale(2,2);        /*det här är scale X och Y tillsammans*/
+      transfrom: skewY(45deg);
+      transfrom: skewX(45deg);
+      
+      transform: matrix(1,0,0,1,0,0);   /* ettorna är stander alltså för att fuguren ska syns*/
+      
+        /*
+          scaleX(),
+          skewY(),
+          skewX(),
+          translateX(),
+          translateY()
+        
+        
+        */
+    }
+
+    
+    
