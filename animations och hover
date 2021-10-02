@@ -1,0 +1,357 @@
+<!DOCTYPE html>		
+
+<html> 			
+
+  <head> 		   
+    <title> da best webpage </title
+  </head> 	
+    
+    
+    <body>
+    
+        <p id="p1"> Hi </p>
+    	
+          
+        
+    </body>
+    
+    
+    
+</html>
+______________________________________________________________________________________________________
+#p1
+{
+  width: 100px;
+  height: 100px; 
+  background: red;
+  font-size: 85px;
+  text-align: center;
+  margin: 0px;
+  
+  animation: myColorAnimation;        // det här är för animation, och under den är tiden för ändring för färg
+  animation-duration: 10s;
+  animation-iteration-count: infinite;    // detta för hur länge håller inimationen (man kan sätt infinite eller siffror ex 3 och det kommer köra 3gånger
+}
+
+@keyframes  myColorAnimation
+{
+    from{background-color:red;}
+    to{background-color:blue;}
+}
+________________________________________
+// färg
+#p1
+{
+  width: 100px;
+  height: 100px; 
+  background: red;
+  font-size: 85px;
+  text-align: center;
+  margin: 0px;
+  
+  animation: myColorAnimation;        
+  animation-duration: 5s;
+  animation-iteration-count: infinite;    
+}
+
+@keyframes  myColorAnimation
+{
+    0%{background-color:red;}                   // 0% är starten och på 20% så kommer orange (från 10s) osv
+    20%{background-color:orange;}
+    40%{background-color:yellow;}
+    60%{background-color:green;}
+    80%{background-color:blue;}
+    100%{background-color:purple;}
+}
+_________________________________________________
+// rotera
+#p1
+{
+  width: 100px;
+  height: 100px; 
+  background: red;
+  font-size: 85px;
+  text-align: center;
+  margin: 0px;
+  
+  animation: myRotateAnmation;        
+  animation-duration: 5s;
+  animation-iteration-count: infinite;    
+}
+
+@keyframes  myColorAnimation        // den kommer inte längre funka eftersom vi bytte animation ovan till myRotateAnmation
+{
+    0%{background-color:red;}                   
+    20%{background-color:orange;}
+    40%{background-color:yellow;}
+    60%{background-color:green;}
+    80%{background-color:blue;}
+    100%{background-color:purple;}
+}
+
+@keyframes myRotateAnmation         // detta för att rotera
+{
+    100%{transform: rotateZ(360deg)}     // rotera 360 grader 
+  /*  100%{transform: rotateX(360deg)} /*            // rotera x axelen
+  /*  100%{transform: rotateY(360deg)} /*             // rotera Y axelen
+}
+______________________________________________________________________________
+// flytta med animations
+#p1
+{
+  width: 100px;
+  height: 100px; 
+  background: red;
+  font-size: 85px;
+  text-align: center;
+  margin: 0px;
+  
+  animation: myTranslate;        
+  animation-duration: 5s;
+  animation-iteration-count: infinite;    
+}
+
+@keyframes  myColorAnimation        // den kommer inte längre funka eftersom vi bytte animation ovan till myRotateAnmation
+{
+    0%{background-color:red;}                   
+    20%{background-color:orange;}
+    40%{background-color:yellow;}
+    60%{background-color:green;}
+    80%{background-color:blue;}
+    100%{background-color:purple;}
+}
+
+@keyframes myRotateAnmation         // den kommer inte längre funka eftersom vi bytte animation ovan till myTranslate
+{
+    100%{transform: rotateZ(360deg)}     
+  /*  100%{transform: rotateX(360deg)} /*            
+  /*  100%{transform: rotateY(360deg)} /*             
+}
+
+@keyframes  myTranslate           // detta för flytta med animation 
+{
+    50% {transform: translate(100px,0);}        // 50% fart ( första px är till höger och andra siffran altså 0 är för nedåt (om båda är 100% så blir animation emot mitten)
+}
+________________________________________________
+
+#p1
+{
+  width: 100px;
+  height: 100px; 
+  background: red;
+  font-size: 85px;
+  text-align: center;
+  margin: 0px;
+  
+  animation: myScale;        
+  animation-duration: 5s;
+  animation-iteration-count: infinite;    
+}
+
+@keyframes  myColorAnimation        
+{
+    0%{background-color:red;}                   
+    20%{background-color:orange;}
+    40%{background-color:yellow;}
+    60%{background-color:green;}
+    80%{background-color:blue;}
+    100%{background-color:purple;}
+}
+
+/*@keyframes myRotateAnmation
+         
+{
+    100%{transform: rotateZ(360deg)}  
+              
+               
+}
+*/
+@keyframes  myTranslate
+{
+    50% {transform: translate(0px,100px);}
+
+}
+
+@keyframe myScale                   // scale animation 
+{
+  50%{transform: scale(3.2)}        // siffrna för transform
+
+}
+_______________________________________________
+// opacity
+#p1
+{
+  width: 100px;
+  height: 100px; 
+  background: red;
+  font-size: 85px;
+  text-align: center;
+  margin: 0px;
+  
+  animation: myOpacity;        
+  animation-duration: 5s;
+  animation-iteration-count: infinite;    
+}
+
+@keyframes  myColorAnimation        
+{
+    0%{background-color:red;}                   
+    20%{background-color:orange;}
+    40%{background-color:yellow;}
+    60%{background-color:green;}
+    80%{background-color:blue;}
+    100%{background-color:purple;}
+}
+
+/*@keyframes myRotateAnmation
+         
+{
+    100%{transform: rotateZ(360deg)}  
+              
+               
+}
+*/
+@keyframes  myTranslate
+{
+    50% {transform: translate(0px,100px);}
+
+}
+
+@keyframes myScale                   // scale animation 
+{
+  50%{transform: scale(3.2)}        // siffrna för transform
+
+}
+
+@keyframes myOpacity
+{
+    0%{opacity:0;}
+    50%{opacity:1;}
+    100%{opacity:0;}
+}
+____________________________________________________________
+// typsnitt
+#p1
+{
+  width: 100px;
+  height: 100px; 
+  background: red;
+  font-size: 85px;
+  text-align: center;
+  margin: 0px;
+  
+  animation: myFont;        
+  animation-duration: 5s;
+  animation-iteration-count: infinite;    
+}
+
+@keyframes  myColorAnimation        
+{
+    0%{background-color:red;}                   
+    20%{background-color:orange;}
+    40%{background-color:yellow;}
+    60%{background-color:green;}
+    80%{background-color:blue;}
+    100%{background-color:purple;}
+}
+
+/*@keyframes myRotateAnmation
+         
+{
+    100%{transform: rotateZ(360deg)}  
+              
+               
+}
+*/
+@keyframes  myTranslate
+{
+    50% {transform: translate(0px,100px);}
+
+}
+
+@keyframes myScale                   // scale animation 
+{
+  50%{transform: scale(3.2)}        // siffrna för transform
+
+}
+
+@keyframes myOpacity
+{
+    0%{opacity:0;}
+    50%{opacity:1;}
+    100%{opacity:0;}
+}
+
+@keyframes myFont           // font animation 
+{
+  0%{font-size:85px;}
+  50%{font-size:400px;}
+  100%{font-size:85px;}
+
+}
+________________________________________________________________________________________________
+// hover 
+
+#p1
+{
+  width: 100px;
+  height: 100px; 
+  background: red;
+  font-size: 85px;
+  text-align: center;
+  margin: 0px;
+  
+    
+}
+#p1: hover                    // hover 
+{
+      animation: myFont;        
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+
+}
+
+@keyframes  myColorAnimation        
+{
+    0%{background-color:red;}                   
+    20%{background-color:orange;}
+    40%{background-color:yellow;}
+    60%{background-color:green;}
+    80%{background-color:blue;}
+    100%{background-color:purple;}
+}
+
+/*@keyframes myRotateAnmation
+         
+{
+    100%{transform: rotateZ(360deg)}  
+              
+               
+}
+*/
+@keyframes  myTranslate
+{
+    50% {transform: translate(0px,100px);}
+
+}
+
+@keyframes myScale                   // scale animation 
+{
+  50%{transform: scale(3.2)}        // siffrna för transform
+
+}
+
+@keyframes myOpacity
+{
+    0%{opacity:0;}
+    50%{opacity:1;}
+    100%{opacity:0;}
+}
+
+@keyframes myFont           // font animation 
+{
+  0%{font-size:85px;}
+  50%{font-size:400px;}
+  100%{font-size:85px;}
+
+}
